@@ -13,6 +13,16 @@ h1,h2,h3{
     font-weight: 700;
 }
 
+.botao{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #8f3faf; 
+    font-size: .9em;
+    border-radius: 3px;
+
+}
+
 /*
 navegação
 */
@@ -65,7 +75,7 @@ CABEÇALHO
 */
 
 header{
-    background-image: url('../img/bck3.jpg');
+    background-image: url('../img/bck4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,3 +91,32 @@ header{
 header p{
     margin-bottom: 2em;
 }
+
+
+/*
+SOBRE
+*/
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color: #8f2faf;
+    color: #f1f1f1; 
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+
+}
+
+#sobre .botao {
+    background-color: #f1f1f1;
+    color:#4d4d4d;
+}
+
+
+
