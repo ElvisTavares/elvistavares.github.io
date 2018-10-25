@@ -17,7 +17,7 @@ h1,h2,h3{
     color: #f1f1f1;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #8f3faf; 
+    background-color: #436EEE; 
     font-size: .9em;
     border-radius: 3px;
 
@@ -103,7 +103,7 @@ SOBRE
     align-items: center;
     text-align: center;
     padding: 0 20px 20px;
-    background-color: #8f2faf;
+    background-color: #436EEE;
     color: #f1f1f1; 
 }
 
@@ -119,4 +119,157 @@ SOBRE
 }
 
 
+/*
+SERVIÇOS
+*/
 
+#servico{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#servico div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/*
+PORTFOLIO
+*/
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+#portfolio h2{
+    margin-bottom: 20px;
+
+}
+
+#portfolio img{
+    width: 100%;
+}
+
+/*CONTATO*/
+
+#contato{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+
+}
+
+
+/*MEDIA QUERIES */
+
+@media screen and (min-width: 768px){
+    /*NAVEGAÇÃO*/
+    nav{
+        flex-direction:row;
+        justify-content: space-around;
+
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+
+    /*CABEÇALHO*/
+    header{
+        height: 60vh;
+        height: 600px;
+        justify-content:center;
+    }
+
+
+    /*SOBRE*/
+
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+
+    }
+
+     /*SERVIÇOS*/
+
+     #servico{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+
+     }
+
+     #servico h2{
+        text-align: center;
+        width: 100%;
+     }
+
+     #servico div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+     }
+
+     /*PORTFOLIO*/
+     #portfolio{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+     }
+
+     #portfolio h2{
+        width: 100%;
+        text-align: center;
+     }
+
+     #portfolio img{
+        width: 33.3333333333%;
+     }
+
+
+    /*CONTATO*/
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+
+
+
+}
