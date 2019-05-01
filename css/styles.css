@@ -94,6 +94,9 @@ header{
 header p{
     margin-bottom: 2em;
 }
+header h1{
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
 
 
 /*
