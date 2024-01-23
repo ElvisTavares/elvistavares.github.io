@@ -1,90 +1,232 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Elvis Tavares</title>
-        <meta charset="utf-8";
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Roboto+Slab" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elvis Tavares</title>
+    <link rel="stylesheet" href="./tailwind.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-white">
+<header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+        <div class="flex items-center">
+            <img src="el.png" alt="Foto do Elvis Tavares" class="h-12 w-12 rounded-full">
+            <h1 class="text-2xl font-bold text-gray-900 px-4 text-opacity-80">
+                Elvis Tavares
+            </h1>
+        </div>
+        <div class="flex">
+            <a href="https://medium.com/@elvisptavares" class="text-4xl font-bold text-gray-900 hover:text-blue-700 px-3 py-2 rounded-md text-sm text-opacity-80">Blog - Medium</a>
+            <a href="seu_link_aqui" class="text-4xl font-bold text-gray-900 hover:text-blue-700 px-3 py-2 rounded-md text-sm text-opacity-80">Contato</a>
+        </div>
+    </div>
+</header>
 
-    </head>
+<main>
+<section class="bg-white py-10 mt-8 px-10 mb-0">
+    <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+        <div class="lg:text-center">
+            <h2 class="mt-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl text-blue-500 font-semibold tracking-wide uppercase" style="font-family: 'Nunito', sans-serif;">OLÁ, MEU NOME É ELVIS</h2>
+            <p class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-10xl 2xl:text-11xl text-gray-700 mt-8" style="font-family: 'Tinos', sans-serif;">
+               E sou programador
+            </p>
+            <p class="mt-8 text-4xl text-gray-500 lg:mx-auto">
+                Sou desenvolvedor Full Stack. Também escrevo sobre programação e tecnologia no meu blog e em outros lugares.
+            </p>
+        </div>
+    </div>
 
-    <body>
-        
-        <nav>
-            <a href="#">Elvis Tavares</a>
-            <ul>
-                <li><a href="#sobre">SOBRE</a></li>
-                <li><a href="#servico">SERVIÇOS</a></li>
-                <li><a href="#portfolio">PORTFÓLIO</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+</section>
+    <section class="bg-gray-100 py-10  px-10">
+        <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+            <div class="container mx-auto p-8">
+                <div class="grid grid-cols-3 gap-8 text-gray-700">
+                    <div class="bg-white p-4 rounded shadow">
+                        <!-- Conteúdo da primeira coluna -->
+                        <h2 class="text-xl font-bold mb-4 text-gray-700">Back End</h2>
+<!--                        <p>Conteúdo da primeira coluna aqui.</p>-->
+                        <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                               PHP
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                LARAVEL
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                MYSQL
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                JAVA
+                            </li>
+                        </ul>
 
-            </ul>
-        </nav>
-        <header>
-            <h1>Elvis Tavares</h1>
-            <!-- <p>Lorem ipsum velit donec volutpat egestas vitae iaculis litora erat nunc, 
-                mattis gravida curabitur viverra ultrices dui congue dolor lacinia. </p> -->
-            <!-- <a href="#" class="botao">VER MAIS</a> -->
-        </header>
+                    </div>
 
-        <section id="sobre">
-            <h2>SOBRE</h2>
-            <p>Estudante do curso e análise e desenvolvimento de Sistemas na Faculdade Detecnologia Senac Pelotas, 
-                trabalho há mais de 7 anos na área de suporte em T.I.</p>
-            <p>Já tive eperiencias como:</p>
-            <p>Tecnico em infórmatica, desenpenhando atividades como manutenção de equipamentos, rede e cameras.</p>
-            <p>Instrutor/Professor de informática para crianças.</p>
-            <p> Suporte em audio, video, iluminação e organização de eventos em geral como palestras.</p>
-            
-                <!-- <a href="#" class="botao">VER MAIS</a> -->
-        </section>
-        
-        <section id="servico">
-            <h2>SERVIÇOS</h2>
-            <div>
-                <img src="img/programming.png" alt=""> <!---->
-                <h3>Desenvolvimento Web</h3>
-                <p>Desnvolvimento de sites e blogs</p>
+                    <div class="bg-white p-4 rounded shadow">
+                        <!-- Conteúdo da segunda coluna -->
+                        <h2 class="text-xl font-bold mb-4">Front End</h2>
+                        <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                HTML
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                CSS
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                BOOTSTRAP
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                TAILWINDCSS
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                JAVASCRIPT
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-4 rounded shadow">
+                        <!-- Conteúdo da terceira coluna -->
+                        <h2 class="text-xl font-bold mb-4">Outras habilidades</h2>
+                        <ul class="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                ARDUINO
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                SCRATCH
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                HARDWARE
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+                                </svg>
+                                REDES
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-white py-10  px-10">
+        <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+            <p class="mt-8 text-4xl text-gray-600 lg:mx-auto">
+               Projetos
+            </p>
+        <div class="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 text-gray-700">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+                <img class="w-full h-40 object-cover" src="assets/decor1.png" alt="Imagem do card">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Decor Store</h2>
+                    <p class="text-gray-700">O projeto consiste em um sistema de comércio eletrônico</p>
+                </div>
             </div>
 
-            <div>
-                <img src="img/3d.png" alt=""> <!---->
-                <h3>Impressão 3d</h3>
-                <p>Serviço de impressão 3d de objetos, protótipos e muito mais...</p>
-            </div>
-        </section>
-
-        <section id="portfolio">
-            <h2>PORTFÓLIO</h2>
-
-                <img src="img/face.jpg" alt="">
-                
-                <img src="img/artificial.jpg" alt="">
-                <img src="img/p2.jpeg" alt="">
-               
-
-        </section>
-
-        <section id="contato">
-            <h2>CONTATO</h2>
-            <p>Entre em contato</p>
-            
-
-            <div>
-                <img src="img/telefone.png" alt="">
-                <p><a href="tel:53984656176">(53)984656176</a></p>
-            </div>
-            
-            <div>
-                <img src="img/email.png" alt="">
-                <p><a href="mailto:elvisptavares@gmail.com">elvisptavares@gmail.com</a></p>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+                <img class="w-full h-40 object-cover" src="assets/reminder.png" alt="Imagem do card">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Reminder System</h2>
+                    <p class="text-gray-700">O sistema permite aos usuários criar lembretes para eventos, compromissos ou tarefas importantes.</p>
+                </div>
             </div>
 
-        </section>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+                <img class="w-full h-40 object-cover" src="assets/passgenerator.png" alt="Imagem do card">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Password Generate</h2>
+                    <p class="text-gray-700">A funcionalidade permite aos usuários gerar senhas aleatórias automaticamente ao pressionar um botão específico na interface. </p>
+                </div>
+            </div>
 
-        <footer>
-            <p>Desenvolvido por Elvis Tavares.</p>
-        </footer>
-    </body>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+                <img class="w-full h-40 object-cover" src="assets/sistvagas.PNG" alt="Imagem do card">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Satolep vagas</h2>
+                    <p class="text-gray-700">Sistema em php utilizando POO </p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+                <img class="w-full h-40 object-cover" src="assets/summer.jpg" alt="Imagem do card">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Summer Fest</h2>
+                    <p class="text-gray-700">Site desenvolvido em bootstrap responsivo e com php no backend</p>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+                <img class="w-full h-40 object-cover" src="assets/sm1.png" alt="Imagem do card">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold mb-2">Escola</h2>
+                    <p class="text-gray-700">Projeto que trabalhei entre 2017-2018 e 2019-2021, tanto no front-end quanto no back-end</p>
+                </div>
+            </div>
+            <!-- Adicione mais cards aqui -->
+        </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+
+
+<footer class="bg-white text-gray-500 py-4">
+    <div class="container mx-auto flex justify-center items-center">
+        <p>&copy; 2024 Elvis Tavares. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+
+
+
+</body>
 </html>
